@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      SPDX-FileCopyrightText: 2013-2015 The CyanogenMod Project
-     SPDX-FileCopyrightText: 2017-2024 The LineageOS Project
+     SPDX-FileCopyrightText: 2017-2024 The FloraOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -24,7 +24,7 @@
     <string name="setup_current_time">השעה הנוכחית</string>
     <string name="setup_location">שירותי מיקום</string>
     <string name="location_access_summary"><b>אפשר ליישומים שביקשו את רשותך</b> להשתמש במידע על מיקומך. הפעולה עשויה לכלול את מיקומך הנוכחי ומיקומים קודמים.</string>
-    <string name="setup_services">תכונות LineageOS</string>
-    <string name="services_help_improve_cm">עזור בשיפור <xliff:g id="name" example="LineageOS">%s</xliff:g></string>
+    <string name="setup_services">תכונות FloraOS</string>
+    <string name="services_help_improve_cm">עזור בשיפור <xliff:g id="name" example="FloraOS">%s</xliff:g></string>
     <string name="services_os_nav_keys_label"><b>השתמש במקשי הניווט במסך</b> במקום במקשים הפיזיים.</string>
 </resources>

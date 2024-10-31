@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      SPDX-FileCopyrightText: 2013-2015 The CyanogenMod Project
-     SPDX-FileCopyrightText: 2017-2024 The LineageOS Project
+     SPDX-FileCopyrightText: 2017-2024 The FloraOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
@@ -25,6 +25,6 @@
     <string name="location_access_summary"><b>Luba rakendustel, mis on küsinud Teie nõusolekut</b> kasutada Teie asukoha informatsiooni. See võib tähendada nii Teie praegust kui ka eelnevaid asukohti.</string>
     <string name="update_recovery_title">Uuenda Lineage Recoveryt</string>
     <string name="update_recovery_setting">Uuenda Lineage Recoveryt koos OSiga</string>
-    <string name="services_help_improve_cm">Aita parendada <xliff:g id="name" example="LineageOS">%s</xliff:g>i</string>
+    <string name="services_help_improve_cm">Aita parendada <xliff:g id="name" example="FloraOS">%s</xliff:g>i</string>
     <string name="services_os_nav_keys_label"><b>Kasuta ekraanil olevaid navigeerimisklahve</b> riistvaraliste nuppude asemel.</string>
 </resources>
