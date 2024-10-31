@@ -11,4 +11,6 @@
     <color name="button_bar_text_disabled">#321e1e1e</color>
 
     <color name="divider">#40000000</color>
+    
+    <color name="welcome_start_accent">#CEA086</color>
 </resources>

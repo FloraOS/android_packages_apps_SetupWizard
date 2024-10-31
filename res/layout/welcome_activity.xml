@@ -4,17 +4,27 @@
      SPDX-FileCopyrightText: 2017-2024 The LineageOS Project
      SPDX-License-Identifier: Apache-2.0
 -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent">
+  <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/welcome_background"
+        android:scaleType="centerCrop" />
+
 <com.google.android.setupdesign.GlifLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/setup_wizard_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+  
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -26,15 +36,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="2" />
-
-            <ImageView
-                android:id="@+id/brand_logo"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:adjustViewBounds="true"
-                android:scaleType="centerCrop"
-                android:src="@drawable/logo" />
-
+	    <!-- Just keep spacing for now-->
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -62,7 +64,9 @@
                     android:id="@+id/welcome_title"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:hyphenationFrequency="none"
+		    android:hyphenationFrequency="none"
+		    android:color="@android:color/black"
+                    android:textColor="@android:color/black"
                     android:paddingBottom="@dimen/welcome_content_container_padding_bottom" />
 
                 <LinearLayout
@@ -75,15 +79,16 @@
 
                     <Button
                         android:id="@+id/launch_accessibility"
-                        style="@style/SudGlifButton.Secondary"
-                        android:layout_width="fill_parent"
+		        style="@style/SudGlifButton.Secondary"
+			android:color="@android:color/black"   
+			android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
                         android:layout_gravity="center_vertical"
                         android:drawableStart="@drawable/ic_eye"
                         android:gravity="start|center"
                         android:drawablePadding="@dimen/welcome_content_container_padding_end"
                         android:textSize="@dimen/welcome_accessibility_text_size"
-                        android:textColor="?android:textColorPrimary"
+			android:textColor="@android:color/black"
                         android:text="@string/accessibility_settings" />
                 </LinearLayout>
             </LinearLayout>
@@ -101,7 +106,8 @@
                 style="@style/SudGlifButton.Secondary"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/emergency_call" />
+		android:textColor="@android:color/black"    
+		android:text="@string/emergency_call" />
 
             <Space
                 android:layout_width="0.0dip"
@@ -112,8 +118,10 @@
                 android:id="@id/start"
                 style="@style/SudGlifButton.Primary"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+		android:layout_height="wrap_content"
+		android:backgroundTint="@color/welcome_start_accent"
                 android:text="@string/start" />
         </LinearLayout>
     </LinearLayout>
 </com.google.android.setupdesign.GlifLayout>
+</RelativeLayout>
