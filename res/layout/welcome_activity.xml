@@ -120,7 +120,8 @@
                 android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
 		android:backgroundTint="@color/welcome_start_accent"
-                android:text="@string/start" />
+		android:text="@string/start"
+		android:textColor="@android:color/black"    />
         </LinearLayout>
     </LinearLayout>
 </com.google.android.setupdesign.GlifLayout>
