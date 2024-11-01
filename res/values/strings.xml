@@ -82,4 +82,9 @@
     <string name="theme_summary">Dark theme uses a black background to help keep battery alive longer on some screens</string>
     <string name="dark">Dark</string>
     <string name="light">Light</string>
+
+    <!-- Finish page -->
+    <string name="finish_title">You\'re all set!</string>
+    <string name="finish_description"> Your device is now setted up and ready to use. If you need to change any preferences you may use back button now or Settings app later.</string>
 </resources>
+
