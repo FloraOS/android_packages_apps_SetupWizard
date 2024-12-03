@@ -43,4 +43,6 @@
     <string name="two_button_navigation">Навігація двома кнопками</string>
     <string name="navbar_navigation">Навігація трьома кнопками</string>
     <string name="hide_gesture_hint">Ховати панель навігації жестами</string>
+    <string name="finish_title">Все готово!</string>
+    <string name="finish_description"> Тепер Ваш пристрій готовий до використання. Якщо Ви хочете змінити ваші налаштування, Ви можете використати кнопку назад або застосунок Налаштування пізніше.</string>
 </resources>
