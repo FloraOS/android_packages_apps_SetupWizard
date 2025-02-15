@@ -12,6 +12,7 @@
     <string name="done">Готово</string>
     <string name="ok">Добре</string>
     <string name="loading">Само секунда\u2026</string>
+    <string name="setup_welcome_message">Добре дошли в <xliff:g id="name" example="LineageOS">%1$s</xliff:g></string>
     <string name="emergency_call">Спешни повиквания</string>
     <string name="accessibility_settings">Настройки на достъпност</string>
     <string name="setup_locale">Език</string>
@@ -37,4 +38,11 @@
     <string name="services_help_improve_cm">Помогне за подобряване на <xliff:g id="name" example="FloraOS">%s</xliff:g></string>
     <string name="services_metrics_label"><xliff:g id="name" example="Help improve FloraOS">%1$s</xliff:g> чрез автоматично изпращане на диагностични данни и данни за употреба до <xliff:g id="name" example="FloraOS">%2$s</xliff:g>. Тази информация не може да се използва, за да ви идентифицира и помага на екипи, работещи по неща като живот на батерията, производителност на приложенията и нови <xliff:g id="name" example="FloraOS">%3$s</xliff:g> функции.</string>
     <string name="services_os_nav_keys_label"><b>Използване на клавишите за навигация на екрана</b> вместо хардуерните бутони.</string>
+    <string name="services_full_description"><xliff:g id="pp_explanation">%1$s</xliff:g>\n<xliff:g id="pp_find">%2$s</xliff:g></string>
+    <string name="setup_navigation">Ориентиране</string>
+    <string name="navigation_summary">Изберете предпочитан начин за ориентиране</string>
+    <string name="gesture_navigation">Жестово ориентиране</string>
+    <string name="two_button_navigation">Ориентиране с два бутона</string>
+    <string name="navbar_navigation">Ориентиране с три бутона</string>
+    <string name="hide_gesture_hint">Скрий подсказката за жестово ориентиране</string>
 </resources>
